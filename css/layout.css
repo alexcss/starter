@@ -3,6 +3,18 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
 .ba-container-center{
 	margin-left: auto;
 	margin-right: auto;
