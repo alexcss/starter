@@ -222,6 +222,13 @@ img {
 /* Phone landscape and bigger */
 
 @media (min-width: 480px) {
+    .ba-float-left-small {
+        float: left;
+    }
+
+    .ba-float-right-small {
+        float: right;
+    }
     /* Whole */
     .ba-width-small-1-1 {
         width: 100%;
@@ -263,6 +270,13 @@ img {
 /* Tablet and bigger */
 
 @media (min-width: 768px) {
+    .ba-float-left-medium {
+        float: left;
+    }
+    .ba-float-right-medium {
+        float: right;
+    }
+
     /* Whole */
     .ba-width-medium-1-1 {
         width: 100%;
@@ -304,6 +318,13 @@ img {
 /* Desktop and bigger */
 
 @media (min-width: 960px) {
+    .ba-float-left-large {
+        float: left;
+    }
+
+    .ba-float-right-large {
+        float: right;
+    }
     /* Whole */
     .ba-width-large-1-1 {
         width: 100%;
@@ -342,6 +363,13 @@ img {
 }
 
 @media (min-width: 1220px) {
+    .ba-float-left-xlarge {
+        float: left;
+    }
+
+    .ba-float-right-xlarge {
+        float: right;
+    }
     /* Whole */
     .ba-width-xlarge-1-1 {
         width: 100%;
